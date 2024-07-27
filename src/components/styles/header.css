@@ -1,0 +1,54 @@
+
+
+#logo{
+    width: 96px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 32px;
+    opacity: 0px;
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.Header{
+    width: 1380px;
+    height: 60px;
+    position: relative;
+    margin: 10px auto;
+    background-color:rgba(6, 6, 6, 0.8);
+    border-radius: 30px;
+}
+
+#headerNav{
+    padding: 19px 100px;
+}
+
+
+#headerA{
+    text-align: center;
+    cursor: pointer;
+    color: rgba(243, 243, 243, 1);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    letter-spacing: 0.20000000298023224px;
+}
+#headerA:hover{
+    color: rgba(233, 96, 38, 1);
+}
+
+#headerLinkIcon{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 32px;
+    border-color: rgba(243, 243, 243, 1)!important;
+    border: 2px ;
+    opacity: 0px;
+
+}
+
+#headerIcon{
+    width: 100%;
+    height: 100%;
+}
