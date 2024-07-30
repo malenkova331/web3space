@@ -37,21 +37,17 @@ function Header() {
                     </div>
                 </div>
                 <div className="pure-u-1-5">
-                    <div className='pure-g' id='headerMedia'>
-                        <div className='pure-u-1-4' >
-                            <div id='headerLinkIcon'>
-                                <a href="">
-                                <img src={ytIcon} alt="ytIcon" id='headerIcon' />
-                                </a>
-                                
-                            </div>
-                        </div>  
-                        <div className='pure-u-1-4' >
-                            <div id='headerLinkIcon'>
-                                <a href="">
-                                    <img src={tgIcon} alt="tgIcon" id='headerIcon' />
-                                </a>
-                            </div>
+                    <div className='headerMedia'>
+                        <div id='headerLinkIcon'>
+                            <a href="">
+                            <img src={ytIcon} alt="ytIcon" id='headerIcon' />
+                            </a>
+                            
+                        </div>
+                        <div id='headerLinkIcon'>
+                            <a href="">
+                                <img src={tgIcon} alt="tgIcon" id='headerIcon' />
+                            </a>
                         </div>
                         
                     </div>
