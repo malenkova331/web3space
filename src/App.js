@@ -3,7 +3,9 @@ import './App.css';
 import './components/styles/mainPage.css'
 import '../node_modules/purecss/build/pure.css';
 import Header from './components/header';
-import bg from './components/styles/img/back2.png'
+import bg from './components/styles/img/back.svg'
+import tgIcon2 from './components/styles/img/tg_icon2.png'
+import rep from './components/styles/img/replacement.svg'
 
 function App() {
   return (
@@ -73,7 +75,7 @@ function App() {
                 </div>
                 <div className='aboutTeamBlock'>
                   <div className='atbImg'>
-                    <img className='atbImgCH' src={require("./components/styles/img/replacement2.png")} alt="" />
+                    <img className='atbImgCH' src={rep} alt="" />
                   </div>
                 </div>
                 <div className='aboutTeamBlock2' style={{backgroundImage: `url(${bg})`}}>
@@ -95,7 +97,7 @@ function App() {
                     <a className='atbButton' href="">
                       <div className='atbButton'>
                         <div className='atbButtonChild' >
-                          <img className='atbLogo' src={require("./components/styles/img/tg_icon2.png")} alt="" />
+                          <img className='atbLogo' src={tgIcon2} alt="" />
                           <p>Подписаться на канал</p>
                         </div>
                       </div>

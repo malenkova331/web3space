@@ -1,4 +1,6 @@
 import './styles/header.css'
+import tgIcon from './styles/img/tg_icon.svg'
+import ytIcon from './styles/img/yt_icon.svg'
 
 
 function Header() {
@@ -11,23 +13,23 @@ function Header() {
                     </div>
                 </div>
                 <div className="pure-u-3-5" >
-                    <div className="pure-g" id='headerNav'>
-                        <div className="pure-u-1-4" id='headerA'>
+                    <div className='headerNav'>
+                        <div className='headerA'>
                             <a>
                                 О курсе
                             </a>
                         </div>
-                        <div className="pure-u-1-4" id='headerA'>
+                        <div className='headerA'>
                             <a>
                                 Спикеры
                             </a>
                         </div>
-                        <div className="pure-u-1-4" id='headerA'>
+                        <div className='headerA'>
                             <a>
                                 Программа курса
                             </a>
                         </div>
-                        <div className="pure-u-1-4" id='headerA'>
+                        <div className='headerA'>
                             <a>
                                 Запись
                             </a>
@@ -36,11 +38,10 @@ function Header() {
                 </div>
                 <div className="pure-u-1-5">
                     <div className='pure-g' id='headerMedia'>
-                        <div className='pure-u-1-2'></div>
                         <div className='pure-u-1-4' >
                             <div id='headerLinkIcon'>
                                 <a href="">
-                                <img src={require("./styles/img/icon_yt.png")} alt="tgIcon" id='headerIcon' />
+                                <img src={ytIcon} alt="ytIcon" id='headerIcon' />
                                 </a>
                                 
                             </div>
@@ -48,7 +49,7 @@ function Header() {
                         <div className='pure-u-1-4' >
                             <div id='headerLinkIcon'>
                                 <a href="">
-                                    <img src={require("./styles/img/icon_tg.png")} alt="tgIcon" id='headerIcon' />
+                                    <img src={tgIcon} alt="tgIcon" id='headerIcon' />
                                 </a>
                             </div>
                         </div>
