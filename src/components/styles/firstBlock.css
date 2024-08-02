@@ -5,7 +5,9 @@
 }
 
 .AboutCourseBlockChild{
-    padding: 200px 145px;
+    margin: 0 auto;
+    width: 1440px;
+    margin-top: 200px;
 }
 
 .runningLine {
@@ -13,6 +15,7 @@
     width: 100vw;
     max-width: 100%;
     height: 25px;
+    padding: 5px 0px;
     overflow-x: hidden;
     font-family: 'Manrope';
     font-style: normal;
@@ -49,10 +52,10 @@
 }
 .forWhoBlock{
     margin-bottom: 150px;
-    width: 70%;
+    width: 80%;
 }
 .whyActBlock{
-    width: 70%;
+    width: 80%;
 }
 .ACBlockH{
     font-family: 'Manrope';
