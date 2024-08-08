@@ -4,6 +4,7 @@
     background-color: rgba(6, 6, 6, 1);
     border-radius: 30px;
     margin: 10px auto;
+    margin-bottom: 90px;
 }
 .left{
     display: flex;
@@ -140,7 +141,7 @@ p{
 .MPTChild{
     margin: 0;
     margin-right: 90px;
-    padding: 5px;
+    padding: 5px 10px;
     text-align: center;
     border-radius: 32px;
     background-color: rgba(24, 91, 146, 0.1);
