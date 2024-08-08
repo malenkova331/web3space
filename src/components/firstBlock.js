@@ -8,7 +8,7 @@ class AboutCourseBlock extends React.Component{
                 <div className='runningLine'>
                     <div className='track'>
                         <p className='content'>
-                        / Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space/ Инвестирование Криптовалют / Web3Space
+                        / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space / Инвестирование Криптовалют / Web3Space
                         </p>
                     </div>
                 </div>

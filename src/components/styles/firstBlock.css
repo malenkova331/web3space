@@ -1,7 +1,7 @@
 .AboutCourseBlock{
     height: 1028px;
     background-color: rgba(6, 6, 6, 1);
-    
+    font-family: "Manrope";
 }
 
 .AboutCourseBlockChild{
@@ -25,7 +25,7 @@
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 12s linear infinite;
+    animation: marquee 36s linear infinite;
 }
 .content{
     font-family: 'Manrope';
@@ -69,7 +69,6 @@
     margin-bottom: 20px;
 }
 .ACBlockText{
-    font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -80,7 +79,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -94,6 +92,8 @@
     border: 1px solid #767676;
     border-radius: 200px;
     margin: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 #dch1{
     width: 196px;

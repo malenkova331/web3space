@@ -5,6 +5,7 @@
     border-radius: 30px;
     margin: 10px auto;
     margin-bottom: 90px;
+    font-family: 'Manrope';
 }
 .left{
     display: flex;
@@ -45,7 +46,7 @@
     border-color: rgba(226, 84, 24, 1)!important;
     border: 2px solid;
     opacity: 0px;
-    font-family: Arial;
+    font-family: Manrope;
     font-size: 12px;
     font-weight: 400;
     line-height: 13.8px;
@@ -111,7 +112,6 @@ p{
 .aboutLi{
     margin-left: 15px;
     margin-top: 10px;
-    font-family: Arial;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.1px;
@@ -148,7 +148,7 @@ p{
     border-color: rgba(24, 91, 146, 1)!important;
     border: 2px solid;
     opacity: 0px;
-    font-family: Arial;
+    font-family: Manrope;
     font-size: 12px;
     font-weight: 400;
     line-height: 13.8px;
@@ -173,7 +173,6 @@ p{
     padding-left: 15px;
     margin-bottom: 15px;
     border-left: 3px solid rgba(24, 91, 146, 1);
-    font-family: Arial;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -181,7 +180,6 @@ p{
 }
 
 .atbText{
-    font-family: Arial;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.1px;
